@@ -1,0 +1,27 @@
+/* ResultTable.css */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .table-responsive {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  .row-animate {
+    animation: fadeIn 0.75s ease-out forwards;
+  }
+  
+  .table-responsive.show {
+    opacity: 1;
+    max-height: 1000px; /* Set a maximum height or adjust based on your content */
+  }
+  

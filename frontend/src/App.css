@@ -1,0 +1,28 @@
+.home-body{
+  background-color: '#C2D9FF';
+  border: none;
+}
+
+
+.home-card-body{
+  /* cursor: pointer; */
+}
+.nav-login-text{
+  color: white;
+}
+.nav-login:hover{
+  border: 2px solid white;
+  background-color: transparent;
+}
+.nav-login-text:hover{
+  color: black;
+}
+
+/* App.css */
+/* src/styles/App.css */
+/* .app-container{
+  display: flex;
+} */
+
+
+
