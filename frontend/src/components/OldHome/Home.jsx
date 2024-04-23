@@ -6,9 +6,9 @@ function Home() {
   return (
     <>
       <Body></Body>
-      <center>
+      
         <h2 className="text-[#190482] text-bold text-4xl">Top Features</h2>
-      </center>
+      
       <Homecard></Homecard>
     </>
   );

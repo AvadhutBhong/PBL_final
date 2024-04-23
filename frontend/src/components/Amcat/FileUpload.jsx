@@ -11,7 +11,7 @@ import {
 import axios from "axios";
 import ResultTable from "./ResultTable";
 import "./FileUpload.css"; // Add a separate CSS file for styling
-import TableauDashboard from "./TableauDashboard";
+// import TableauDashboard from "./TableauDashboard";
 
 const FileUpload = () => {
   const [file, setFile] = useState(null);
@@ -102,7 +102,7 @@ const FileUpload = () => {
     <>
       <center>
         <h2 className="font-bold w-[70%] text-[#3f3378]">
-          This page is to analyse the AMCAT result data of a individual student!
+          This page is to analyse the AMCAT result data of students!
         </h2>
       </center>
 
@@ -135,12 +135,12 @@ const FileUpload = () => {
           {/* <br /> */}
           <hr />
           <br />
-          {dash && <Row className="mb-2 pb-2 h-[700px] w-[95%] ">
+          {/* {dash && <Row className="mb-2 pb-2 h-[700px] w-[95%] ">
             <Col md={12}><TableauDashboard/></Col>
             <br />
             <br />
             <hr />
-          </Row>}
+          </Row>} */}
           
           <Row className="mb-3 w-[60%]">
           <label htmlFor="roll"className="flex mb-2">Check for Individual Candidate result </label>
